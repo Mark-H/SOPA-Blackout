@@ -1,0 +1,9 @@
+Partially based on this WordPress plugin: http://wordpress.org/extend/plugins/simple-sopa-blackout/, released as GPL.
+
+This plugin will hijack requests on January 18th between 8am and 8pm YOU SERVER TIME. For more information on why, see www.sopastrike.com.
+
+The plugin will give users the opportunity to still see your site - they will see the blackout once, and should be free to browse your site for up to 3 hours after that. They can browse your site after seeing the blackout by refreshing the page or clicking the "Continue to your destination" link.
+
+The blackout serves a proper 503 Server temporarily unavailable message to avoid losing your search engine rankings. 
+
+To adjust the layout of the blackout page, edit core/components/sopablackout/elements/templates/simple-message.tpl.
